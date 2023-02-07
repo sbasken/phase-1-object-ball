@@ -26,3 +26,12 @@ function goodPractices() {
 
 // then, call the function so it runs!
 goodPractices()
+
+const numPointsScored = (playerName) => {
+  const gameInfo = gameObject();
+  for (let key in gameInfo) {
+    debugger
+    const homeAway = gameInfo[key]
+    for ()
+  }
+}
